@@ -7,22 +7,11 @@ animal classification GUI using PCA
 
 その時作ったものがPython2.用だったのでPython3.用に変更し、Anacondaで動作確認し動いたので依頼主につながる個人情報のみ削除しGithubに載せました。
 
-準備：
-必要Pythonパッケージ：pyper, Pillow
-必要Rパッケージ：vegan
-必要作業：全ファイルを同じディレクトリ内に置きます。
+準備：必要Pythonパッケージ：pyper, Pillow、必要Rパッケージ：vegan、必要作業：全ファイルを同じディレクトリ内に置きます。
 
 python uranai_py3.pyで動きます。
 
-GUIが立ち上がるので、自分に当てはまる選択肢を選び決定すると、
-
-DCA.csvに入っているデータに選んだ選択肢を含めたファイルDCAw.csvの作成とPCAcode.Rの起動をし、sleepします。
-
-sleep中にPCAcode.Rで主成分分析を行いplot1.pngを出力します。
-
-sleep後、plot1.pngを読み取り表示します。
-
-この時、s1-29の内youに近いものがあなたに一番近い生き物という原理になっています。
+GUIが立ち上がるので、自分に当てはまる選択肢を選び決定すると、DCA.csvに入っているデータに選んだ選択肢を含めたファイルDCAw.csvの作成とPCAcode.Rの起動をし、sleepします。sleep中にPCAcode.Rで主成分分析を行いplot1.pngを出力します。sleep後、plot1.pngを読み取り表示します。この時、s1-29の内youに近いものがあなたに一番近い生き物という原理になっています。
 
 
 コメント：
